@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+<div>
+    <ul class="nav nav-pills">
+        <li role="presentation" class="active"><a href="#">添加商品</a></li>
+        <li role="presentation" class="disabled"><a href="#">管理商品</a></li>
+        <li role="presentation" class="disabled" ><a href="#">管理用户</a></li>
+    </ul>
+</div>
+<form action="#" method="post" id="form1"></form>
+
+<div class="input-group col-lg-3">
+    <label>商品名</label>
+    <input type="text" class="form-control" title="商品名" form="form1">
+</div>
+<div class="input-group col-lg-3">
+    <label>商品号</label>
+    <input type="text" class="form-control" title="商品号" form="form1">
+</div>
+<div class="input-group col-lg-3">
+    <label>商品描述</label>
+    <textarea class="form-control" title="商品描述" form="form1"></textarea>
+</div>
+<div class="btn-group" style="padding-top: 10px">
+    <input type="submit" class="btn btn-default" value="提交" form="form1"/>
+</div>
+
+
+</body>
+</html>
