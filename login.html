@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模拟登陆页面</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body id="body1">
+        <h4>利用了js做的模拟登录界面，登录账号密码就是写在上面的</h4>
+        <hr>
+        <div class="input-group col-lg-3">
+            <label>用户名</label>
+            <input id="username" type="text" class="form-control" title="用户名" placeholder="admin">
+        </div>
+        <div class="input-group col-lg-3">
+            <label>密码</label>
+            <input id="password" type="password" class="form-control" title="密码" placeholder="123">
+        </div>
+        <div class="btn-group" style="padding-top: 10px">
+            <input onclick="validate()" type="submit" class="btn btn-default" value="提交"/>
+        </div>
+
+</body>
+</html>

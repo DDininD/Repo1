@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物导航</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="navi.html">购物网页</a>
+        </div>
+    </div>
+</nav>
+<div class="row">
+    <div class="col-lg-2">
+        <ul class="nav nav-stacked nav-pills">
+            <li role="presentation"><a id="jump1" href="login.html" target="mainFrame">登录</a></li>
+            <li role="presentation"><a href="shows.html" target="mainFrame">商品</a></li>
+        </ul>
+    </div>
+    <div class="embed-responsive embed-responsive-16by9 col-lg-10">
+        <iframe class="embed-responsive-item" name="mainFrame" src="login.html"></iframe>
+    </div>
+</div>
+
+
+</body>
+</html>
