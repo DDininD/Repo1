@@ -1,0 +1,35 @@
+a{
+    color: white;
+    text-decoration-line: none;
+    align-content: center;
+}
+nav {
+    background-color: blueviolet;
+    height: 60px;
+
+}
+
+#text1{
+    font-size: large;
+    color: white;
+    padding-top: 50px;
+}
+.click{
+    width: 50px;
+    height: 30px;
+    border-radius: 4px;
+    background: grey;
+   color: white;
+    text-decoration-line: none;
+}
+.nav-left{
+    background-color: blue;
+    float: left;
+    height: 500px;
+    width: 70px;
+}
+.container{
+    height:500px;
+    display: block;
+    background-color: grey;
+}
