@@ -26,12 +26,12 @@ function hotPeaks() {
     };
     let cloth = {
         name: '衣服',
-        hot: 1,
+        hot: 3,
         img_path: 'cloth.jpg'
     };
     let shoes = {
         name: '鞋子',
-        hot: 2,
+        hot: 3,
         img_path: 'shoes.jpg'
     };
     const goods = [hat, shoes, cloth];
