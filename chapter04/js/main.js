@@ -39,7 +39,22 @@ function hotPeaks() {
     for (let i = 0; i < 3; i++) {
         if (goods[i].hot === 3) {
             b.innerHTML +=
-                `<div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">${goods[i].name}</h2></div><div class="panel-body"><div class="thumbnail"><img src='${goods[i].img_path}'></div><br><strong>大热门！NOW！</strong></div></div>`;
+                `<div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">
+                            ${goods[i].name}
+                        </h2>
+                    </div>
+                    <div class="panel-body">
+                    <div class="thumbnail">
+                        <img src='${goods[i].img_path}'>
+                    </div>
+                    <br>
+                    <strong>
+                        大热门！NOW！
+                    </strong>
+                    </div>
+                </div>`;
         }
     }
 
