@@ -3,10 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="js/domTest.js" type="text/javascript"></script>
-</head>
-<body>
 
+</head>
+<body onload="initLands()">
+<strong>用户注册：</strong>
+<form>
+
+    <label for="name">用户名:</label><br>
+
+    <input type="text" id="name"><br>
+
+    <div style="padding-bottom: 20px">
+        <label for="password">密码:</label><br>
+        <input type="text" id="password"><br>
+    </div>
+
+    <select id="province" onchange="provChange()">
+        <option>---省份---</option>
+    </select>
+    <select id="city" onchange="cityChange()">
+        <option>---市---</option>
+    </select>
+    <select id="region">
+        <option>---区---</option>
+    </select><br>
+    <div style="padding-top: 20px">
+        <input type="submit" value="注册">
+    </div>
+</form>
+
+
+<script src="js/domTest.js" type="text/javascript"></script>
 
 </body>
 </html>
